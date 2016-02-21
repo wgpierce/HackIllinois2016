@@ -1,0 +1,29 @@
+{
+  "name": "wgpierce_hackillinois2016",
+  "version": "0.0.1",
+  "description": "Project for HackIllinois 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgpierce/HackIllinois2016.git"
+  },
+  "keywords": [
+    "John",
+    "Deere",
+    "Node",
+    "Microsoft",
+    "Azure"
+  ],
+  "author": "William Pierce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wgpierce/HackIllinois2016/issues"
+  },
+  "homepage": "https://github.com/wgpierce/HackIllinois2016#readme",
+  "dependencies": {
+    "myjohndeere": "^0.2.0"
+  }
+}
