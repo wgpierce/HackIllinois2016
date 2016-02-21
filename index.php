@@ -2,23 +2,24 @@
 	include('/include/head.html');
 	include('/include/header.html');
 ?>
-
-    <div class="container theme-showcase" role="main">
-
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Theme example</h1>
-        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+		<p>Click buttons below to track who has been using the farm equipment and for how long</p>
       </div>
 
 
       <div class="page-header">
         <h1>Buttons</h1>
+        <a href="track_machine.php"><button type="button" class="btn btn-lg btn-primary">Track A Machine</button></a>
+        <button type="button" class="btn btn-lg btn-primary">Track A User</button>
+
+<!--
+        <button type="button" class="btn btn-lg btn-success">Success</button>
+        <button type="button" class="btn btn-lg btn-info">Info</button>
+        <button type="button" class="btn btn-lg btn-warning">Warning</button>
+        <button type="button" class="btn btn-lg btn-danger">Danger</button>
+        <button type="button" class="btn btn-lg btn-link">Link</button>
+--> 
       </div>
-
-
-
-    </div> <!-- /container -->
-
 
 <?php include('include/footer.html'); ?>
